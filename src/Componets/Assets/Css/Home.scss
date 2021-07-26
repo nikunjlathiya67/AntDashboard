@@ -1,0 +1,89 @@
+.container-fluid {
+    padding: 0 !important;
+    overflow: hidden;
+    background-color: #eceff7;
+
+    .home-sidebar {
+        width: 17%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        top: 0;
+        left: -100%;
+        transition: all 0.5s;
+
+        @media (min-width: 1200px) and (max-width: 1440px) {
+            width: 20%;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            width: 23%;
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            width: 29%;
+        }
+
+        @media (min-width: 425px) and (max-width: 767px) {
+            width: 50%;
+        }
+
+        @media (min-width: 320px) and (max-width: 424px) {
+            width: 65%;
+            padding-right: 0;
+        }
+    }
+
+    .home-maincards {
+        width: 83%;
+        padding-left: 15px;
+        padding-right: 30px;
+        margin-top: 62px;
+
+        @media (min-width: 1200px) and (max-width: 1440px) {
+            width: 80%;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            width: 77%;
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            width: 71%;
+        }
+
+        @media (min-width: 425px) and (max-width: 767px) {
+            width: 50%;
+        }
+
+        @media (min-width: 320px) and (max-width: 424px) {
+            width: 35%;
+        }
+    }
+    .accordian{
+        left: 0;
+    }
+
+    .cardMobileSize {
+        width: 100%;
+        padding: 0px 50px 0 50px;
+        transition: all 0.5s;
+
+        @media (min-width: 320px) and (max-width: 767px) {
+            padding: 0px 20px 0 20px;
+        }
+    }
+
+    .overlay {
+        @media (min-width: 320px) and (max-width: 991px) {
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            // height: 100px;
+        }
+    }
+    .sidebar-spaces{
+        width: 0;
+        padding: 0;
+        transition: all 0.5s;
+    }
+}

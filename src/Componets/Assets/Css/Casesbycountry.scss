@@ -1,0 +1,77 @@
+.Casesbycountry-shaddow {
+    box-shadow: 0px 0px 12.32px 3.68px rgba(36, 60, 130, 0.15);
+    border-radius: 10px;
+
+    .Casesbycountry-space {
+        height: 452px;
+        margin-top: 30px;
+        @media (min-width: 320px) and (max-width: 991px) {
+            height: 100%;
+        }
+
+        .corona-Update {
+            padding-right: 0;
+            @media (min-width: 320px) and (max-width: 991px) {
+                padding-right: 15px;
+            }
+
+            .Casesbycountry {
+                background-color: white;
+                padding: 15px;
+                border-radius: 10px 0px 0px 10px;
+                text-align: left;
+                @media (min-width: 320px) and (max-width: 991px) {
+                    border-radius: 10px 10px 0px 0px;
+                }
+
+                h4 {
+                    color: #0e5f7c;
+                    font-weight: 700;
+                }
+
+                table {
+                    .data-title {
+                        font-weight: 700;
+
+                        td {
+                            color: black !important;
+                        }
+                    }
+
+                    tr {
+                        td {
+                            color: #7b7b7b;
+                        }
+                    }
+
+                    .tr-space {
+                        height: 10px;
+                    }
+                }
+            }
+        }
+
+        .Mapcountry-Wrap {
+            padding-left: 0;
+            height: 100%;
+            @media (min-width: 320px) and (max-width: 991px) {
+                padding-left: 15px;
+            }
+
+            .Mapcountry {
+                background-color: white;
+                padding: 15px;
+                border-radius: 0px 10px 10px 0px;
+                height: 100%;
+                @media (min-width: 320px) and (max-width: 991px) {
+                    border-radius: 0px 0px 10px 10px;
+                }
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
